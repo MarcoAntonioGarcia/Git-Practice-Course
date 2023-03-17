@@ -1,0 +1,29 @@
+microservicios VISE
+
+Todos los proyectos deben estar con spring boot (en el readme poner instrucciones para ejecutarle)
+Todo se debe subir a GitHub 
+La base de datos debe ser con mysql o derby (en el readme poner instrucciones o configuraciones especiales)
+Unir los proyectos con eureka, no es necesario subir el proyecto de eureka al menos que sea una configuración especial.
+
+Proyecto 1, hacer una conexión a la base de datos 
+crear 2 modelos relacionados, la relación de las entidades debe ser de uno a muchos, por ejemplo encabezado_factura(primer modelo) y el otro detalle_factura(segundo modelo), donde en el encabezado esta el UUID y en el detalle el listado de productos de la factura.
+hacer un CRUD de cada modelo
+conectar a eureka el proyecto
+
+Proyecto 2, este proyecto debe tener el proyecto JS.
+conectar a eureka el proyecto
+consumir un lista del modelo, hacer una vista donde se tenga la lista del primer modelo, Esto debe ser CRUD (Poder crear, leer, actualizar y eliminar)
+en la primera vista cada elemento debe poder acceder al detallado de elementos (segundo modelo). Tambien se debe poder hacer el CRUD.
+El proyecto debe estar configurado con web jar (https://www.webjars.org/) para importar el js (https://www.baeldung.com/maven-webjars), si no esta el proyecto bajarlo y dejarlo en el proyecto. Por ejemplo si se quiere usar vue.js y no esta en las librerías de web jar. Pero estoy seguro que todos los js están ahí.
+Este proyecto no debe tener ninguna conexión a base de datos.
+
+
+
+Puntos Extras:
+usar log4j2 
+usar docker, Dockerfile o docker-comporse
+configurar estadísticas de rendimiento de spring
+
+
+Linea extra
+

@@ -1,0 +1,58 @@
+
+Para el proyecto https://www.codejava.net/frameworks/spring-boot/spring-boot-crud-example-with-spring-mvc-spring-data-jpa-thymeleaf-hibernate-mysql
+
+Seguir el ejemplo anterior, cambiar el nombre las tablas si se quiere agregar mas de una tabla no hay problema.
+Agregar una plantilla css por ejemplo bootstrap.
+Si se quiere usar un framework js en particular no hay problema.
+Se evalúa en base a este proyecto la experiencia que validaciones se usa como usan las herramientas o técnicas. Tambien que tanta habilidad se tiene para configurar un proyecto de spring boot.
+
+1. uso exclusivo de fetch en js (javascript)
+2. uso de clases en js - toda la lógica debe estar en clases no usar <script> para poner js, solo si es para llamar a las clases. Las clases deben estar en archivos .js y se deben importar en los html o jsp.
+
+3. hacer una petición al controller para buscar por "Brand" por fetch y mostrar el id.
+4. hacer una petición a la interface ProductRepository para buscar por precio mayor a una cantidad https://www.bezkoder.com/jpa-repository-query/
+
+5. Implementar el uso de internationalization en spring boot (https://www.baeldung.com/spring-boot-internationalization)
+
+6. Se debe subir el proyecto a github
+
+Punto Extra: implementar las libreas web jar (https://www.webjars.org/) para importar el js (https://www.baeldung.com/maven-webjars)
+
+Que otra cosa se evalúa, se comprueba el proyecto en sonarqube (https://www.sonarqube.org/) para ver las buenas practicas de programación. Se puede instalar en el editor (eclipse, https://www.adictosaltrabajo.com/2014/10/08/eclipse-sonar-qube/)
+
+
+Puntos Extras:
+usar log4j2 
+usar docker, Dockerfile o docker-comporse
+configurar estadísticas de rendimiento de spring
+
+
+
+
+
+./sonar.sh stop
+
+mvn clean verify sonar:sonar -Dsonar.projectKey=com.springboot.datajpa.app:spring-boot-data-jpa -Dsonar.host.url=http://localhost:9000 -Dsonar.login=sqp_21b1cd4914c383e0d526a076b7c59434626aa577
+
+
+
+Agregamos lineas para usar en Git 
+
+Otra actualización para hacer un commit (2)
+
+Otra actualización para hacer un commit (3)
+
+ESTO ESTA EN LA RAMA1
+
+
+ESTO ESTA EN LA RAMA1 y lo juntaremos con el master con un checkout
+
+ESTO ESTA EN LA RAMA MASTER
+
+
+ESTO SOLO DEBERIA ESTAR EN LA RAMA MASTER después del primer merge
+
+
+Ls otra cosa
+
+
